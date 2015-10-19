@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Multiplayer FPS by Brackeys/Assets/PlayerController.cs">
+    <Files>
+      <File FileName="../Multiplayer FPS by Brackeys/Assets/PlayerController.cs" Line="43" Column="28" />
+      <File FileName="../Multiplayer FPS by Brackeys/Assets/PlayerMotor.cs" Line="36" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
