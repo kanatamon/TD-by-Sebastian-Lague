@@ -4,7 +4,7 @@ using System.Collections;
 public class Gun : MonoBehaviour {
 
     public Transform muzzle;
-    public Transform injectionT;
+    public Transform ejectionT;
     public Projectile projectile;
     public Shell shell;
     public float msBetweenShots = 100;
@@ -24,7 +24,7 @@ public class Gun : MonoBehaviour {
 
             // Inject a shell
             //Shell newShell = Instantiate(shell, injectionT.position, injectionT.rotation) as Shell;
-            Instantiate(shell, injectionT.position, injectionT.rotation);
+            Instantiate(shell, ejectionT.position, ejectionT.rotation);
 
             // Animate gun using script controll
             StartCoroutine(React());

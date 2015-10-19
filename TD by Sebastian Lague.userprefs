@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Multiplayer FPS by Brackeys/Assets/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Gun.cs">
     <Files>
-      <File FileName="../Multiplayer FPS by Brackeys/Assets/PlayerController.cs" Line="43" Column="28" />
-      <File FileName="../Multiplayer FPS by Brackeys/Assets/PlayerMotor.cs" Line="36" Column="4" />
+      <File FileName="Assets/Scripts/Gun.cs" Line="31" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
