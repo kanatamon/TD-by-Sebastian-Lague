@@ -4,7 +4,9 @@ using System.Collections;
 public class Gun : MonoBehaviour {
 
     public Transform muzzle;
+    public Transform injectionT;
     public Projectile projectile;
+    public Shell shell;
     public float msBetweenShots = 100;
     public float muzzleVelocity = 35;
 
@@ -15,9 +17,16 @@ public class Gun : MonoBehaviour {
         if (Time.time > nextShotTime)
         {
             nextShotTime = Time.time + msBetweenShots / 1000;
+
+            // Fire a bullet
             Projectile newProjectile = Instantiate(projectile, muzzle.position, muzzle.rotation) as Projectile;
             newProjectile.SetSpeed(muzzleVelocity);
 
+            // Inject a shell
+            //Shell newShell = Instantiate(shell, injectionT.position, injectionT.rotation) as Shell;
+            Instantiate(shell, injectionT.position, injectionT.rotation);
+
+            // Animate gun using script controll
             StartCoroutine(React());
         }
     }
